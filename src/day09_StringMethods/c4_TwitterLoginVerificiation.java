@@ -13,7 +13,7 @@ public class c4_TwitterLoginVerificiation {
 
     public static void main(String[] args) {
 
-        String expectedUsername = "renastecha";
+        String expectedUsername = "renastecha1";
         String expectedPassword = "renastech123";
 
         //correct credentials -- it should pass
