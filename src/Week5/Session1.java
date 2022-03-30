@@ -34,6 +34,40 @@ public class Session1 {
 
         System.out.println(answerofInt);
 
+        System.out.println("****************PRIME NUMBER****************");
+
+        //write a program that will check if the given number is a prime or not
+
+        // 5, 8 => 1,2,4,8
+        // 6 => 2 3 not
+        // 13 => prime number only dives by 1 or itself which is 13
+
+        int number = 13 ;// prime number which is 1 and 13 is the only number can it be devided
+
+        int count = 0 ; //created this for temperory
+
+        if (number == 2 || number == 3){
+
+            System.out.println(number + " is a prime number");
+        }else{
+            for (int i =2 ; i<myNumber; i++){
+
+                if ( number% i == 0){
+                    count++;
+
+                }
+
+            }
+            if (count==0){
+                System.out.println(number + "is a prime number");
+
+            }else{
+                System.out.println(number + " is not a prime number");
+            }
+
+
+        }
+
 
 
 
