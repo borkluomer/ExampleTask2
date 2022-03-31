@@ -1,7 +1,23 @@
 package StudyHallSessions.Week5;
 
+import java.util.Scanner;
+
 public class Session2 {
     public static void main(String[] args) {
+
+        /*
+        Task 1-  //    Write a program that can print the numbers between 1 ~
+        100 that can be divisible by 3, 5, and 15. Please use while loop
+        //
+        //            if the number can be divisible by 3, 5 and 15, then it should
+        only be displayed in DivisibelBy15' section
+        //
+        //            if the number can be divisible by 3 but cannot be divisible by 15,
+         then it should only be displayed in DivisibelBy3' section
+        //
+        //            if the number can be divisible by 5 but cannot be divisible by 15,
+         then it should only be displayed in DivisibelBy5' section
+         */
 
         //step 1
         String DivisibelBy15 = "";
@@ -67,6 +83,40 @@ public class Session2 {
         }else{
             System.out.println(str + "is NOT a Polindrome ");
         }
+
+        // TASK 3
+        /*
+        Task 3- Write a program that prints the multiplication table of the user-provided number.
+        e.g., If the user enters the value of 9
+
+          should become, the program prints
+				9
+				18
+				27
+				36
+				...
+				...
+				81
+				90
+         */
+
+        Scanner input = new Scanner(System.in);
+        System.out.println("Enter a Number");
+
+        int userInput = input.nextInt();
+
+        int sPoint = 1;
+        int ePoint = 9;
+
+        while (sPoint < ePoint) {
+            System.out.println("sPoint = " +sPoint);
+
+            System.out.println(sPoint+ "*" + userInput + " = " +(sPoint*userInput));
+            System.out.println("-------------");
+            sPoint++;
+        }
+
+
 
 
 
