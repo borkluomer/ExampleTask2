@@ -1,5 +1,8 @@
 package StudyHallSessions.Week5;
 
+import java.util.Random;
+import java.util.Scanner;
+
 public class Session3 {
     public static void main(String[] args) {
 
@@ -28,6 +31,47 @@ public class Session3 {
 
 
         }
+
+        // Guessing game
+        //Please follow the steps below
+        // Step 1-  Create 2 int variables with name of randomNumber , userInput;
+        //Step 2- Create a program that will generate randomly a number between 1 to 10
+        //to generate a random number use >>
+        //Random random=new Random();
+        //int randomNumber = random.nextInt(10) + 1;
+        // Step 2- Ask the user to enter a number between 1-10
+        //Step 3-  Create a logic with a do-while loop that will ask the user to enter a
+        // number as long as the random number and user input are not matching.
+
+
+        // Step 1-  Create 2 int variables with name of randomNumber , userInput;
+
+        int randomNumber;
+        int userInput;
+        //Step 2- Create a program that will generate randomly a number between 1 to 10
+        do {
+            Random random = new Random();
+            //Step 2- Create a program that will generate randomly a number between 1 to 10
+            //to generate a random number use >>
+            randomNumber = random.nextInt(10)+1;
+
+            Scanner input = new Scanner(System.in);
+            System.out.println("ENTER A NUMBER BETWEEN 1 and -10");
+
+            userInput=input.nextInt();
+            System.out.println("RANDOM WAS .. " +randomNumber);
+
+
+            // Step 3- Ask the user to enter a number between 1-10
+
+        }while(randomNumber != userInput);
+        //Step 3-  Create a logic with a do-while loop that will ask the user to enter a
+        // number as long as the random number and user input are not matching.
+        System.out.println("CONGRATULATIONS... ");
+
+
+
+
 
 
 
