@@ -14,8 +14,6 @@ public class arrayStudentsExample {
         String student4 = "Huseyin";
         String student5 = "Ali";
 
-
-
         //before learning arrays
         System.out.println(student1);
         System.out.println(student2);
