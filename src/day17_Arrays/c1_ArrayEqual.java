@@ -1,0 +1,36 @@
+package day17_Arrays;
+
+import java.util.Arrays;
+
+public class c1_ArrayEqual {
+    public static void main(String[] args) {
+
+        //ARRAY equals
+        int [] arr1 = {3,5,7};
+        int [] arr2 = {5,3,7};
+        int [] arr3 = {3,5,7};
+        int [] arr4 = {3,4,7};
+
+        boolean b11 = Arrays.equals(arr1,arr2); //false
+        boolean b21 = Arrays.equals(arr1,arr3); //true
+        boolean b31 = Arrays.equals(arr2,arr3); //false
+        boolean b41 = Arrays.equals(arr3,arr4); //false
+
+        System.out.println(b11+ " , " + b21 + " , " + b31 + " , " + b41);
+        //only condition that arrays will be equal is if both array equal with value and order
+
+        Arrays.sort(arr1); // {3,5,7};
+        Arrays.sort(arr2); // {5,3,7};
+        Arrays.sort(arr3); // {3,5,7};
+        Arrays.sort(arr4); // {3,4,7};
+
+
+
+
+
+
+
+
+
+    }
+}
