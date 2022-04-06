@@ -68,12 +68,12 @@ public class ArrayConcept {
         //6. Object Array (Object is class) ---- is used to store different data types values
 
         Object ob[] = new Object[6];
-        ob[0] = "Omer";
-        ob[1] = 33;
-        ob[2] = 12.33;
-        ob[3] = 10/14/1988;
-        ob[4] = 'M';
-        ob[5] = "Turkey";
+        ob [0] = "Omer";
+        ob [1] =  33;
+        ob [2] =  12.33;
+        ob [3] =  10/14/1988;
+        ob [4] =  'M';
+        ob [5] =  "Turkey";
         System.out.println(ob[5]); //Turkey
         System.out.println(ob.length); //6
 

@@ -45,6 +45,31 @@ public class c4_array {
         System.out.println("min = "+ min);
         System.out.println("max = " + max);
 
+        System.out.println("----------------------------------------------------");
+
+
+        int [] numbersList3 = {14,77,99,43,78,56,125,62,375,12546,12};
+        //max number 12546
+        //min number 12
+
+        //lets assume the min and max
+
+        int max1 = numbersList3[0];
+        int min1 = numbersList3[0];
+
+        for (int j=0; j<= numbersList3.length-1 ; j++){
+            if ( numbersList3[j] > max1){
+                max1=numbersList3[j];
+            }
+            if ( numbersList3[j] < min1 ){
+                min1 = numbersList3[j];
+            }
+
+
+        }
+        System.out.println("min1 = " + min1);
+        System.out.println("max1 = " + max1);
+
 
 
 
