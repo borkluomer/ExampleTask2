@@ -3,7 +3,7 @@ package MyProjects;
 public class Learning2DimensionsInArray {
     public static void main(String[] args) {
 
-        String x [] [] = new String[3][5];
+        String x [] [] = new String[3][5]; //doesnt matter if your write the square brackets before or after Var.
 
         System.out.println(x.length); // 3 total numbers of a row is =3
         System.out.println(x[0].length); //5 total numbers of a column is = 5
