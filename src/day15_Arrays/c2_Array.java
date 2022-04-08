@@ -43,12 +43,12 @@ public class c2_Array {
         //for engineers arrays= you have size == 5 (numbers will be assigned as soon as you create the array)
         //since we didnt define index numbers all the index will be null
 
-        System.out.println("Engineers[2] " +engineers[2]);  //null
+        System.out.println("Engineers[2] " + engineers[2]);  //null
         engineers[2] = "SDET2";
-        System.out.printf("engineers[2]", engineers[2]);//it wont be null anymore because we reassign to SDET2
+        System.out.println("engineers[2]"+ engineers[2]);//it wont be null anymore because we reassign to SDET2
 
         engineers[4] = "DEV1";
-        System.out.printf("engineers[5]"+ engineers[4]);
+        System.out.println("engineers[5]"+ engineers[4]);
 
         //length of array
         int  length = engineers.length;
