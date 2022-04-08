@@ -45,7 +45,7 @@ public class c4_array {
         System.out.println("min = "+ min);
         System.out.println("max = " + max);
 
-        System.out.println("----------------------------------------------------");
+        System.out.println("************************************************");
 
 
         int [] numbersList3 = {14,77,99,43,78,56,125,62,375,12546,12};
