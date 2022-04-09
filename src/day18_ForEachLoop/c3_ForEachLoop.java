@@ -32,6 +32,7 @@ public class c3_ForEachLoop {
 
         String sentence = "Hello world java is here";
         String [] words = sentence.split("");
+        // why did we use split here bc that way we can separate the words from each other
 
         for (String word : words){
             System.out.println(word);
