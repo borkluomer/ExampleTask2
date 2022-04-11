@@ -18,7 +18,7 @@ public class c3_ForEachLoop {
         System.out.println("------------------------------------");
 
         //for each loop will store each variable from the numbers list
-        //in each ittiration from first one to last one
+        //in each iteration from first one to last one
 
         String [] initials = {"OCB", "BK" , "HB", "CEB" , "MTB"};
         // print all initials using for each
@@ -34,8 +34,8 @@ public class c3_ForEachLoop {
         String [] words = sentence.split("");
         // why did we use split here bc that way we can separate the words from each other
 
-        for (String word : words){
-            System.out.println(word);
+        for (String text : words){
+            System.out.println(text);
         }
 
 

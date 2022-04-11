@@ -11,7 +11,7 @@ public class c2_arrayDeepToString {
         //2nd
         int [] [] number2D= { {1,2} , {2,3,4} , {4}};
 
-        System.out.println(number2D); //this isnt gone work bc output is [[I@1540e19d
+        System.out.println(number2D); //this isn't gone work bc output is [[I@1540e19d
 
         System.out.println(Arrays.toString(number2D)); // output [[I@677327b6, [I@14ae5a5, [I@7f31245a]
 

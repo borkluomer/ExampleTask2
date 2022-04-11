@@ -6,7 +6,7 @@ public class c1_multiDimension {
     public static void main(String[] args) {
 
         String [][] nameList = { {"boy1" ,"boy2", "boy3"},{"girl1","girl2","girl3", "girl4"} };
-        //                             0                              1
+        //                                  0                              1
         //                          0       1       2        0        1        2       3
 
 
@@ -25,12 +25,12 @@ public class c1_multiDimension {
         System.out.println("girl3 = " + girl3);
         System.out.println(Arrays.toString(boyNames));
 
-        // int [][][] numbee3d= {
+        // int [][][] number3d= {
         // {1,2,3},{4,5},{6},{7},{8}}
 
         int [][][] number3d = {   {  {1,2,3} ,{4,5},}, {{6},{7}, },    {{8} }  };
-        //child container index      0        1         2
-        //grandchild containder index   0       2        0   1           0
+        //child container index        0        1        2   3           4
+        //grandchild container index   0       0  1      0   1           0
         //data index                  0 1 2     0 1        0    0          0
 
         System.out.println(number3d[0][0][0]); // 1
