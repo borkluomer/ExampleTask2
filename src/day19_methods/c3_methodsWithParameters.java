@@ -54,7 +54,7 @@ public class c3_methodsWithParameters {
             }else{
                 result= age +" age doesnt exits!";
             }
-        System.out.println(age);
+        System.out.println(result);
 
 
 

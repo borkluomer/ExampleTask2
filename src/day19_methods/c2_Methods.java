@@ -41,7 +41,7 @@ public class c2_Methods {
     //name this method evenNumbers100
 
     public static void evenNumbers100(){
-        for (int i=2; i<101; i=i+2){
+        for (int i=2; i<101; i=+2){
             System.out.print(i+ " , ");
 
         }
