@@ -8,5 +8,8 @@ public class c4_LibraryTest {
         GenerateUtils.hello();
         GenerateUtils.reverseString("java");
         GenerateUtils.reverseString("kayak");
+
+        String word ="Hello java is Fun";
+        GenerateUtils.reverseString(word);
     }
 }
