@@ -16,7 +16,7 @@ public class c2_Methods {
         //public              static         void            main         (String[] args){
         //Access-modifier     specifier      return-type     methodName   (parameter)
         //statements, code
-        //
+        //}
 
         //Access-Modifier = pub;ic , protected, default ,private
         //specifier: states , final, abstract, synchronized
@@ -48,6 +48,7 @@ public class c2_Methods {
         System.out.println();
         System.out.println("-------------------------------");
     }
+    //second way of doing it with if condition
     public static void evenNumber123(){
         int i = 1;
         while (i<101){
