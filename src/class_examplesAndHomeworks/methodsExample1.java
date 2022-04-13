@@ -15,11 +15,6 @@ public class methodsExample1 {
 
     }
 
-
-
-
-
-
     public static void evenNumber(int startingPoint,int endingPoint){
 
         for (int i=startingPoint; i<=endingPoint;i++ ){
@@ -28,9 +23,6 @@ public class methodsExample1 {
             }
         }
     }
-
-
-
 
 
 
