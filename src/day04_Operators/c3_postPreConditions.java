@@ -1,4 +1,4 @@
-package da04_Operators;
+package day04_Operators;
 
 public class c3_postPreConditions {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package da04_Operators;
+package day04_Operators;
 
 public class c1_unaryOperators {
     public static void main(String[] args) {
