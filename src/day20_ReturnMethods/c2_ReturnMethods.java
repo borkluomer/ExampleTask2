@@ -3,16 +3,16 @@ package day20_ReturnMethods;
 public class c2_ReturnMethods {
 
 
-    //decleration of the method
+    //declaration of the method
     // public               static           void               main        (String [] args){
-    // Access-modifer       specifier        return-type        methodName  (paramater)
-    //statments ,code
+    // Access-modifier       specifier        return-type        methodName  (parameter)
+    //statements ,code
     //}
 
-    //Access-Modifer =public, protected ,default ,priavate
+    //Access-Modifier =public, protected ,default ,private
     //specifier   : static ,final ,abstract ,synchronized
     //return type : void , any datatype(int,string,char , int [] .......)
-    //some method has paramertes some dont have parameter
+    //some method has parameters some don't have parameter
 
     //create a method that will print minumum number from 2 number
     public static void minNumber(int i1, int i2) {
@@ -27,7 +27,7 @@ public class c2_ReturnMethods {
 
         System.out.println(result);
     }
-    //void means any data type and doesnt need to return anything
+    //void means any data type and doesn't need to return anything
 
 
     public static int minNumber2(int i1, int i2) {
