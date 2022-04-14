@@ -14,18 +14,18 @@ public class c1_UniqueLetterFromArray {
     // */
     public static void main(String[] args) {
 
-        //if the variable is in the list for only one time that measn this is a unique value
+        //if the variable is in the list for only one time that mean this is a unique value
         //I should only print strings that has count == 1
         //to check letter count  you will need to compare with all letters and when it equals you increase the count
         //the ones that has count == 1 are unique
-        //count 0 , 2 3 4 5 6 .. wont be unique
+        //count 0 , 2 3 4 5 6 ... won't be unique
 
         String [] letters={"A", "A", "B", "C", "C","C","D","E","D"};
 
 
         for (String eachLetter : letters){ //A //A //B //C ..... E
             int count=0;
-            // to reset count for each letter we have count inside of our loop
+            // to reset count for each letter we have count inside our loop
 
             for (String eachLetter2 : letters){//={"A", "A", "B", "C", "C","C","D","E","D"};
                 if (eachLetter2.equals(eachLetter)){
@@ -82,7 +82,7 @@ public class c1_UniqueLetterFromArray {
     public static void uniquesFromArray2(String [] letters){
 
         //String [] letters = {"A", "A", "B",  "C","D","D"};
-        //no need this one because we want make sure to run this method for different String arrays
+        //no need this one because we want to make sure to run this method for different String arrays
 
         //System.out.println(Arrays.toString(letters));
 

@@ -52,8 +52,8 @@ public class GenericUtils {
     //logic is to take an array and return that array in descending order
     //that means my return type is int []
     public static int [] descendingSort2(int [] arr){
-        //first i will sort it and reverse the arrray
-        //so i can have from large to small
+        //first I will sort it and reverse the array
+        //so I can have from large to small
         Arrays.sort(arr);
 
         int []descArr=new int[arr.length];

@@ -14,7 +14,7 @@ public class c2_ReturnMethods {
     //return type : void , any datatype(int,string,char , int [] .......)
     //some method has parameters some don't have parameter
 
-    //create a method that will print minumum number from 2 number
+    //create a method that will print minimum number from 2 number
     public static void minNumber(int i1, int i2) {
         String result = "";
         if (i1 < i2) {
@@ -48,6 +48,7 @@ public class c2_ReturnMethods {
 
     public static void main(String[] args) {
 
+        minNumber(1,2);
         minNumber(63, 44);
         minNumber(23, 35);
         minNumber(13, 115);
@@ -88,14 +89,18 @@ public class c2_ReturnMethods {
 
         System.out.println(division(20, 3));
         int resultDivision = division(40, 10);
+        int result = division(10,2);
+        System.out.println("Result is " + result);
         System.out.println("resultDivision = " + resultDivision);
         System.out.println("resultDivision*3 = " + (resultDivision * 3));
+     add2(2,3);
+
     }
 
     //create a division method
     //2 int as parameter min number
     //return a min number == return type is int
-    public static int division(int n1, int n2) {
+   public static int division(int n1, int n2) {
 
         System.out.println("Hello This is division method ");
         System.out.println("division of " + n1 + " / " + n2);
@@ -105,15 +110,24 @@ public class c2_ReturnMethods {
 
     //addition methods
     public static void add1(int number1, int number2) {
+
         System.out.println(number1 + number2);
     }
 
+
+
     public static int add2(int number1, int number2) {
+        System.out.println(number1+number2);
 
         return number1 + number2;
     }
 
+
+
+
     public static byte add3(byte number1, byte number2) {
+
+
         return (byte) (number1 + number2);
     }
 
