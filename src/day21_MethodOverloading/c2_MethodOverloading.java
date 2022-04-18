@@ -18,8 +18,8 @@ public class c2_MethodOverloading {
     }
 
     //method overloading :
-    //you cant have same loads and same method name with different returnt types
-    //in order to achive methodoverloading you have to have different type of load or amount of load
+    //you can't have same loads and same method name with different return types
+    //in order to achieve method-overloading you have to have different type of load or amount of load
 
     public static void sum(int a , int b ,int c){
         System.out.println("***3 int sum method***");
@@ -36,7 +36,7 @@ public class c2_MethodOverloading {
 
 
     //public static void sumOf2Numbers(int a , int b){ }  instead of having long method names
-    // i can use one method name that will have same function but with different loads (methodoverloading)
+    // i can use one method name that will have same functioned but with different loads (method-overloading)
 
     public static void main(String[] args) {
 

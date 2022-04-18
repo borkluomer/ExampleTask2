@@ -12,10 +12,10 @@ public class Session2_1 {
          * as a void method
          */
         factorical1(4); // 1 * 2 *3 *4== 24
-        //factorail value of 4 = 24
+        //factorial value of 4 = 24
 
         factorical1(6);
-        //factorail value of 6 = 720
+        //factorial value of 6 = 720
 
 
         /**

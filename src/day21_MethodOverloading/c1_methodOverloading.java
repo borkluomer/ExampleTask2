@@ -15,7 +15,7 @@ public class c1_methodOverloading {
 
         method(3);
 
-        //if you dont define whole number jave will taka as a int
+        //if you don't define whole number java will take as an int
 
         byte number1=3;
         method(number1);
