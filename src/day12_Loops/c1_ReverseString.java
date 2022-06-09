@@ -18,7 +18,7 @@ public class c1_ReverseString {
         String word = "Hello";
 
         String reverseString = "" +word.charAt(4) + word.charAt(3) + word.charAt(2) +word.charAt(1)+word.charAt(0);
-        System.out.println("reverseString :" + reverseString);
+        System.out.println("a2_reverseString :" + reverseString);
 
         Scanner input = new Scanner(System.in);
         System.out.println("Enter Your Word :" );
