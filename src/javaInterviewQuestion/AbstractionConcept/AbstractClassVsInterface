@@ -1,0 +1,7 @@
+Both help us to achieve abstraction in Java and both cannot be instantiated.
+Abstract Class in a class and can be partiality abstract since it can include concrete methods.
+Interface is pure abstraction since there is no concrete method in it and it is just like a
+blueprint for the class implementing it. Interface can have abstract methods, default methods, static methods,
+and public final static variables.
+We can extend only one Abstract class but when we want to use an interface, we may implement as many interfaces
+as we want.

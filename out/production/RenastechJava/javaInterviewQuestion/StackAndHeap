@@ -1,0 +1,10 @@
+Java Heap is used throughout the app, but Stack is only used for the method or methods currently running
+The Heap Space contains all objects are created , but Stack contains any reference to the those objects.
+Objects stored in the Heap can be accessed throughout the application. Primitive local variables are only
+accessed the Stack Memory blocks that contains their methods.
+Memory allocation in the Heap Space us accessed through a complex, young generation, old- generation system.
+Stack is accessed a last in, first-out (LIFO) memory allocation system.
+Heap space exists as ling as the application runs and is larger than Stack, which is temporary,but faster.
+The Heap space contains all objects are created, but Stack contains any reference to the objects.
+Objects stored in the Heap can be accessed throughout the application
+Primitive local variables are only accessed the Stack Memory blocks that contains their methods.

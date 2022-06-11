@@ -1,0 +1,22 @@
+package javaInterviewQuestion.AbstractionConcept;
+
+public class TestBank {
+    public static void main(String[] args) {
+
+        HDFCBank hb = new HDFCBank();
+
+        hb.credit();
+        hb.debit();
+        hb.load();
+        hb.funds();
+
+        Bank b = new HDFCBank();
+        b.credit();
+        b.debit();
+        b.load();
+
+
+
+
+    }
+}

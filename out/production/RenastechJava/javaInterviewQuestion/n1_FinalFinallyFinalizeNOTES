@@ -1,0 +1,16 @@
+   /*
+        FINAL VS FINALIZE VS FINALLY?
+
+        Final --- is a keyword and used to apply restrictions on class, method and variable...
+
+        .final class CANNOT BE INHERITED
+        .final method CANNOT BE OVERRIDDEN
+        .final Variable value
+
+        Finally--- is a block and used to place important code, it will be executed whether exception handled or not.
+
+        Finalize --- is a method and used to perform clean-up processing before Object is Garbage collected.
+
+
+
+         */

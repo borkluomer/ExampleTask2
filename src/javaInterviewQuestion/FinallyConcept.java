@@ -9,7 +9,7 @@ public class FinallyConcept {
 
 
     }
-    //finally is a block
+    //finally, is a block
     public static void test1(){
         try {
             System.out.println("inside test1 method");
