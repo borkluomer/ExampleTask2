@@ -1,6 +1,6 @@
 package MyProjects;
 
-public class forDongusuProjesi2 {
+public class forLoop3 {
     public static void main(String[] args) {
 
         for(double d = 20.5 ; d>3.5 ; d--){
