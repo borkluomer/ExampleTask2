@@ -2,7 +2,7 @@ package patika_projelerim;
 
 import java.util.Scanner;
 
-public class KDV_TutariHesaplayanProgram {
+public class Tax_Calculator {
     public static void main(String[] args) {
 
         double tutar, kdvOrani =0.18, kdvTutar, kdvliTutar;

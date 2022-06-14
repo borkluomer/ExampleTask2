@@ -2,7 +2,7 @@ package patika_projelerim;
 
 import java.util.Scanner;
 
-public class tekSayilariBulmaProgrami {
+public class HowToFindOddNumbers {
 
     public static void main(String[] args) {
 

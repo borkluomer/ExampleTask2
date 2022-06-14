@@ -2,7 +2,7 @@ package patika_projelerim;
 
 import java.util.Scanner;
 
-public class kullanicidanVeriAlma {
+public class gettingAReturnFromAUser {
     public static void main(String[] args) {
 
         int a;

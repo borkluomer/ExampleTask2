@@ -1,9 +1,8 @@
 package patika_projelerim;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
-public class kullaniciSifresiGirisi {
+public class UserPasswordEntry {
     public static void main(String[] args) {
 
         Scanner inp = new Scanner(System.in);
