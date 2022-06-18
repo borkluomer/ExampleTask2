@@ -1,4 +1,4 @@
-package StudyHallSessions.Week3.Week4;
+package StudyHallSessions.Week4;
 
 public class Session1 {
     public static void main(String[] args) {
